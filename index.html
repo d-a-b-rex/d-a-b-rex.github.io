@@ -1,731 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>MyResume</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <!-- <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <style>
-    .page-link.selected {
-  color: rgb(172, 19, 19);
-  background-color: rgb(230, 240, 233); 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lolipop</title>
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <style>
+      .tooltip {
+  position: absolute;
+  pointer-events: none;
+  background-color: rgb(202, 202, 202);
+  border: 1px solid gray;
+  color: rgb(0, 0, 0);
+  padding: 8px;
 }
 
-  </style>
-
-
+    </style>
 </head>
-
 <body>
-
-  <!-- ======= Mobile nav toggle button ======= -->
-  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
-  <i class="bi bi-list mobile-nav-toggle d- lg-none"></i>
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex flex-column justify-content-center">
-
-    <nav id="navbar" class="navbar nav-menu">
-      <ul>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About Me</span></a></li>
-        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-        <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Skills</span></a></li>
-        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Publications</span></a></li>
-        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-      </ul>
-    </nav><!-- .nav-menu -->
-
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center">
-    <div class="container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Dr. Rex Devasahayam Arokia Balaya</h1>
-      <p>I'm <span class="typed" data-typed-items="Post Doctoral Research Fellow, Post Doctoral Research Fellow, Post Doctoral Research Fellow, Assistant Professor"></span></p>
-      <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
-    </div>
-  </section>
-  <!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title mb-4">
-          <h2>About Me</h2>
-          <p style="text-align: justify;"> I am  Dr. Rex Devasahayam Arokia Balaya, a Ph.D. holder from Yenepoya (Deemed to be University), Mangalore, India. As an Assistant Professor, my focus has been on studying interleukins and their role in cellular signaling related to inflammatory diseases. Specifically, I employ a quantitative phosphoproteomic approach to investigate the temporal dynamics of IL-33-mediated signaling in monocytes.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4">
-            <img src="assets/img/rex_pic.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content">
-            <h3>Post Doctoral Research Fellow</h3>
-            <p class="fst-italic">
-              My expertise encompasses various aspects of proteomics, including sample preparation, instrumentation, data interpretation, and unraveling signaling pathways
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>D.O.B:</strong> <span>----------</span></li>
-                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>----------</span></li> -->
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>----------</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Rochester, Minnesota</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>----------</span></li> -->
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Ph.D.</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>rexprem@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
-                </ul>
-              </div>
-            </div>
-            <p class="mt-3" style="text-align: justify;">
-              Currently, I am dedicated to developing CRISPR/Cas9 knockout models in both cell lines and mice at the Department of Laboratory Medicine and Pathology, Center for Individualized Medicine, Mayo Clinic in Rochester, Minnesota, USA. Additionally, I am involved in mass spectrometry-based multi-omics analysis and single-cell proteomics to comprehend the molecular basis of various diseases, including multiple myeloma, for the development of novel diagnostic biomarkers and potential new therapeutics.  </p>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Section -->
-
-    <!-- ======= Facts Section ======= -->
-    <section id="facts" class="facts">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Facts</h2>
-          <p class="mx-4 mt-4">Throughout my academic and professional journey, I have been recognized for my contributions through publications, awards, and other notable achievements</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="46" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Publications</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-            <div class="count-box">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="51" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Projects</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Patents</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="bi bi-award"></i>
-              <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Awards</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Facts Section -->
-
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Skills</h2>
-          <p class="mx-4 mt-4" style="text-align: justify;">My skill page showcases a wide array of proficiencies, including expertise in proteomics sample preparation, advanced instrumentation, data interpretation, and the study of signaling pathways</p>
-        </div>
-
-        <div class="row skills-content">
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill">Integrative Genome Viewer (IGV) <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">R Package <i class="val">50%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Python <i class="val">50%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill"> Proteome Discoverer <i class="val">50%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill">Xcalibur 4.0 <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">PathVisio <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">MaxQuant, <i class="val">55%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">Cytoscape<i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Skills Section -->
-
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Resume</h2>
-          <p class="mx-4 mt-4" style="text-align: justify;">I have achieved academic excellence in the field of Biochemistry, with a Ph.D. from Yenepoya (Deemed to be University), along with an M.Phil., M.Sc., Diploma, and B.Sc. from renowned institutions in India</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6">
-            <h3 class="resume-title">Sumary</h3>
-            <div class="resume-item pb-0">
-              <h4> Dr. Rex Devasahayam Arokia Balaya</h4>
-              <p><em>A Ph.D. holder from Yenepoya (Deemed to be University), Mangalore, India. As an Assistant Professor, my focus has been on studying interleukins and their role in cellular signaling related to inflammatory diseases</em></p>
-              <ul>
-                <li>Rochester, Minnesota</li>
-                <li>phone</li>
-                <li>rexprem@gmail.com</li>
-              </ul>
-            </div>
-
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Ph.D. in Biochemistry</h4>
-              <h5>2017 - 2022</h5>
-              <p><em>Yenepoya (Deemed to be University)Mangalore, Karnataka, India</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
-            </div>
-            <div class="resume-item">
-              <h4>M.Phil. in Biochemistry</h4>
-              <h5>2010 - 2012</h5>
-              <p><em>P.S.G College of Arts and Science, Bharathiar University,Coimbatore, Tamil Nadu, India</em></p>
-              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
-            </div>
-            <div class="resume-item">
-              <h4>M.Sc. in Biochemistry</h4>
-              <h5>2007 - 2009</h5>
-              <p><em>J. J. College of Arts and Science, Bharathidasan University,Trichy, Tamil Nadu, India</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
-            </div>
-            <div class="resume-item">
-              <h4>Diploma in Bioinformatics</h4>
-              <h5>2017 - 2022</h5>
-              <p><em>J. J. College of Arts and Science, Bharathidasan University,Trichy, Tamil Nadu, India</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Post Doctoral Research Fellow</h4>
-              <h5>2023 - Present</h5>
-              <p><em>Department of Laboratory Medicine and Pathology </em></p>
-              <ul>
-                <li>Center for Individualized Medicine at Mayo Clinic in Rochester, Minnesota, USA </li>
-                
-                <!-- <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li> -->
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Assistant Professor</h4>
-              <h5>2022 - 2023 </h5>
-              <p><em>Centre for Integrative Omics Data Science </em></p>
-              <ul>
-                <li>Trained 18 students on proteomics, metabolomics and signaling pathways (Wet lab experiments and data analysis) </li>
-                <li>developed a tool for proteomics (ProteoArk) and metabolomics data analysis  </li>
-                <!-- <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li> -->
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Ph.D. student</h4>
-              <h5>2016-2022</h5>
-              <p><em>Yenepoya (Deemed to be University)</em></p>
-              <ul>
-                <li><b> Project title:</b> "Spatiotemporal influence of Interleukin-1 family cytokine in cellular signal transduction signaling pathways"</li>
-                <li>Combained phosphoproteomics, western blot, and RT-PCR analysis to study signaling dynamics of IL-33 mediated signaling in monocytes using TMT labeling-based quantitation</li>
-                <!-- <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li> -->
-              </ul>
-            </div>
-             <div class="resume-item">
-              <h4>Project fellow</h4>
-              <h5>2015-2016</h5>
-              <p><em>ICMR- National Institute of Traditional Medicine, Belagavi, Karnataka, India</em></p>
-              <ul>
-                <li><b> Project title:</b> “Understanding the Molecular Mechanism of Mitochondrial Division in Malaria Parasites”</li>
-                <li>Performed molecular biology experiments including primer designing, Infusion cloning, PCR amplification, knock-down and knock out (CRISPR-Cas9) studies</li>
-                <!-- <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li> -->
-              </ul>
-            </div>
-             <div class="resume-item">
-              <h4>Project Fellow</h4>
-              <h5>2014-2015</h5>
-              <p><em>PSG Institute of Medical Sciences and Research, Coimbatore, Tamil Nadu, India</em></p>
-              <ul>
-                <li><b> Project title:</b> "A Study of HDL Function and Proteomics"</li>
-                <li>A Novel Method of Evaluating Dyslipidemia treatment Isolated monocytes from PBMCs and cell culture of macrophage cell lines</li>
-                <li>Standardized flow cytometric analysis of CD4 and CD8 count in blood samples</li>
-                <!-- <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li> -->
-              </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Resume Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Technical Skills (Cell and Molecular Biology)</h2>
-          <p class="mx-4 mt-4" style="text-align: justify;">With a strong foundation in cell and molecular biology, I possess comprehensive technical skills and expertise in studying the intricate mechanisms and processes that govern cellular functions at the molecular level</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box iconbox-blue">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
-                </svg>
-                <i class="bx bxl-dribbble"></i>
-              </div>
-              <h4><a href="">Proteomics and Protein Biochemistry</a></h4>
-              <ul style="list-style: none;">
-             <li> <p class="m-2" style="text-align: justify;">	Enrichment of phosphoproteome, acetylome and succinylome using antibodies</p></li>
-              <li><p class="m-2" style="text-align: justify;">Western Blotting</p></li>
-            </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box iconbox-orange ">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"></path>
-                </svg>
-                <i class="bx bx-file"></i>
-              </div>
-              <h4><a href="">Proteogenomics</a></h4>
-              <ul style="list-style: none;">
-              <li><p class="m-2 mt-3" style="text-align: justify;">Identification of novel events such as variant peptides from unassigned spectra. </p></li>
-              <li><p class="m-2" style="text-align: justify;">Integrative Genome Viewer (IGV), BLASTp (NCBI) and ClustalW tools were used for this method</p></li>
-            </ul></div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box iconbox-pink">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
-                </svg>
-                <i class="bx bx-tachometer"></i>
-              </div>
-              <h4><a href="">Signaling pathways</a></h4>
-              <p class="m-4" style="text-align: justify;">Literature curation and bioinformatic analysis of pathway related data</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box iconbox-yellow">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813"></path>
-                </svg>
-                <i class="bx bx-layer"></i>
-              </div>
-              <h4><a href="">Molecular biology and cell<br> culture</a></h4>
-              <ul style="list-style: none;">
-              
-                <li><p class="m-2" style="text-align: justify;">Hands on experience in primary and cancer cell lines</p></li>
-                <!-- <li><p class="m-2" style="text-align: justify;">DNA and RNA isolation and purification, Infusion cloning, PCR, RT-PCR  </p></li> -->
-                <li><p class="m-2" style="text-align: justify;">Gene editing techniques including CRISPR- Cas 9 (Plasmodium falciparum 3D7)</p></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box iconbox-red">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572"></path>
-                </svg>
-                <i class="bx bx-slideshow"></i>
-              </div>
-              <h4><a href="">Proteomics Software</a></h4>
-              <p class="mt-5" style="text-align: justify;" >Proteome Discoverer, Skyline, MaxQuant, Xcalibur 4.0</p>
-              <p class="mt-2" style="text-align: justify;" >Developed a tool for proteomics : <a href="https://www.ciods.in/proteoark/"> ProteoArk </a></p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box iconbox-teal">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
-                </svg>
-                <i class="bx bx-arch"></i>
-              </div>
-              <h4><a href="">LC-MS</a></h4>
-              <ul style="list-style: none;">
-                <li><p class="m-3" style="text-align: justify;">Handling, maintenance and calibration (Orbitrap Fusion)</p></li>
-                <!-- <li><p class="m-3" style="text-align: justify;">HPLC, PCR, RT- PCR, NanoDrop</p></li> -->
-              </ul>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Publications</h2>
-          <p class="mx-4 mt-4" style="text-align: justify;">In the realm of scientific publications, my research findings have been recognized and showcased through a diverse range of articles, reflecting my expertise and contributions to the field</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <ul id="portfolio-flters">
-              <!-- <li data-filter="*" class="filter-active">All</li> -->
-              <li><button class="btn btn-outline-secondary active" id="filter-published">Published</button></li>
-              <li><button class="btn btn-outline-secondary" id="filter-manu">Manuscript Submitted</button></li>
-              <li><button class="btn btn-outline-secondary" id="filter-patent">Patent</button></li>
-              <li><button class="btn btn-outline-secondary" id="filter-book">book Chapters</button></li>
-            </ul>
-          </div>
-        </div>
-
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-12 col-md-6 portfolio-item" id="published">
-            <ul class="m-2 pb-3  p-2" id="pagination-list" style="list-style: none;text-align: justify;">
-              <li><h6 style="font-weight: bold;">1.  Sanjeev, D., Dagamajalu, S*., Shaji, V., George, Subbannayya, Y., M., Prasad, T. S. K., Raju, R*., Rex, D. A. B*. (2023). A network map of MSP signaling pathway. Journal of Cell Communication and Signaling. (Impact factor 5.9) (*Shared corresponding author)</h3></li>
-              <li><h6 style="font-weight: bold;">2.  Upadhyay, S. S., Rex, D. A. B*., Parate, S. S., Dagamajalu, S., Prasad, T. S. K*., Shetty, R*., Raju, R*. (2023). An assembly of TROP2-mediated signaling events. Journal of Cell Communication and Signaling. (Impact factor 5.9) (*Shared corresponding author)</h6></li>
-              <li><h6 style="font-weight: bold;">3.  Chandrasekaran, J., Parasuraman, P., Krishnan, S., Rex, D. A. B., Kunjiappan, S. (2023). Prospects for repurposing FDA-approved medications as Omicron spike/ACE-2 protein complex disruptors. Journal of Research in Pharmacy.</h6></li>
-              <li><h6 style="font-weight: bold;">4.  Suchitha G. P., Rex, D.A.B*., Raju, R., Prasad, T.K., Dagamajalu, S. A. (2023). network map of Cytoskeleton-associated protein 4 (CKAP4)-mediated signaling pathway in cancer. Journal of Cell Communication and Signaling. (Impact factor 5.9) (*Shared corresponding author)</h6></li>
-              <li><h6 style="font-weight: bold;">5.  Kumar, S., Rex, D. A. B., Saptami, K., Raju, R., T. S. Keshava Prasad., Kandasamy, R. K. (2023). Computational Tools for Exploring Peptide-Membrane Interactions in Gram-Positive Bacteria. Computational and Structural Biotechnology Journal. (Impact factor: 6.15). (Shared first author and corresponding author)</h6></li>
-              <li><h6 style="font-weight: bold;">6.  Rex, D.A.B., Jaikanth, C., Saptami, K., Modi, P., Shobha, D., Raju, R., Prasad, T.K., Computational design of novel Calcium/Calmodulin-Dependent protein kinase kinase 2 (CAMKK2) inhibitors. Journal of Biomolecular Structure and Dynamics. (Impact factor: 5.235) (Shared first author and corresponding author)</h6></li>
-              <li><h6 style="font-weight: bold;">7.  Mol, P., Rex, D. A. B., Dagamajalu, S., Babu, S., Chandrasekaran, P., Raghuvan., Suresh, S., Ravishankara, N., Raj, H. A., Nair, B., Modi, P. K., Madevan, A., Prasad, T. S. K., Raju, R. (2022). A network map of GDNF/RET signaling pathway in physiological and pathological conditions. Journal of Cell Communication and Signaling. (Impact factor 5.9) (Shared corresponding author)</h6></li>
-              <li><h6 style="font-weight: bold;">8.  Dagamajalu, S*., Rex, D. A. B*., Suchitha G. P., Rai, B. A., Raju, R., Prasad, T. S. K.(2022). A network map of Discoidin Domain Receptor 1 (DDR1)-mediated signaling in pathological conditions. Journal of Cell Communication and Signaling. (Impact factor 5.9) (*Shared first author and Shared corresponding author)</h6></li>
-              <li><h6 style="font-weight: bold;">9.  Rex, D. A. B*., Kanekar, S*., Chanderasekaran, J., Rekha, P. D. Pleotropic potential of quorum sensing mediated N-acyl homoserine lactones (AHLs) at the LasR and RhlR receptors of Pseudomonas aeruginosa. Molecular Diversity. (Impact factor: 3.364) (Shared first author)</h6></li>
-              <li><h6 style="font-weight: bold;">10. Terlouw, Barbara; Blin, Kai; Navarro-Muñoz, Jorge C.; Avalon, Nicole; Chevrette, Marc G.; Egbert, Rex, D. A. B; Linington, Roger; Weber, Tilmann; Medema, Marnix. (2022). MIBiG 3.0: A community-driven effort to annotate experimentally validated biosynthetic gene clusters. Nucleic Acids Research (Impact factor- 19.16).</h6></li>
-              <li><h6 style="font-weight: bold;">11. Kumari, G., Rex, D. A. B., Goswami, S., Mukherjee, S., Biswas, S., Maurya, P., Jain, R., Garg, S., Prasad, T. S. K., Pati, S., Ramalingam, S., Mohandas, N., Singh, S. (2022). Dynamic palmitoylation of Red cell membrane proteins governs susceptibility to invasion by malarial parasite. ACS Infectious Diseases. (Impact Factor: 5.578)</h6></li>
-              <li><h6 style="font-weight: bold;">12. Anam, E. Z*., Kumari, G*., Mukherjee, S*., Rex, D.A.B*., Sah, RK., Chaurasiya, A., Singhal, J., Singh, N., Kaushik, S., Prasad, T. S. K., Pati, S., Ranganathan, A., Singh, S. (2022). Complementary crosstalk between palmitoylation and phosphorylation events in MTIP regulate its role during Plasmodium falciparum invasion. Frontiers in Cellular and Infection Microbiology. (Impact Factor: 6.073). * Shared first author</h6></li>
-              <li><h6 style="font-weight: bold;">13. Rex, D. A. B., Dagamajalu, S., Gouda, M., Suchitha G. P., Chanderasekaran, J., Raju, R., Prasad, T. S. K., and Bhandary, Y. P (2022). A comprehensive network map of IL-17A signaling pathway. Journal of Cell Communication and Signaling. (Impact factor 5.9) (First author and Shared corresponding author)</h6></li>
-              <li><h6 style="font-weight: bold;">14. Rex, D. A. B., Prasad, T. S. K., Kandasamy, R. K. (2022). Revisiting Regulated Cell Death Responses in Viral Infection. International Journal of Molecular Sciences. (Impact Factor: 6.208)</h6></li>
-              <li><h6 style="font-weight: bold;">15. Phukan, S., Sarma, A., Rex, D. A. B., Rai, B. A., Prasad, T. S. K., Madanan, M. G. (2022). Unique post-translational modification sites for acetylation, glutarylation, and phosphorylation are found specific to the proteins partitioned in the Triton X-114 fractions of Leptospira. ACS-Omega. (Impact factor: 4.132)</h6></li>
-              <li><h6 style="font-weight: bold;">16. Kanekar, S., Rex, D. A. B., Chanderasekaran, J., Rekha, P. D. (2022). Competitive interaction of thymol with cviR inhibits quorum sensing and associated biofilm formation in Chromobacterium violaceum. International Microbiology. (Impact factor: 3.097)</h6></li>
-              <li><h6 style="font-weight: bold;">17. Rex, D. A. B., Vaid, N., K. Deepak, K., Dagamajalu, S., Prasad, T. S. K. (2022). A comprehensive review on current understanding of bradykinin in COVID-19 and inflammatory diseases. Molecular Biology Reports. (Impact factor: 2.741)</h6></li>
-              <li><h6 style="font-weight: bold;">18. Rex, D. A. B., Chanderasekaran, J., Rai, B. A., Phukan, S., Sarma, A., Prasad, T. S. K., Madanan, M. G. (2022). Leptospira and Leptospirosis: New systems science insights on proteome, posttranslational modifications and pathogen-host interaction. OMICS: A Journal of Integrative Biology. (Impact factor: 3.978)</h6></li>
-              <li><h6 style="font-weight: bold;">19. Rex, D. A. B., Patil, A. H., Modi, P. K., Kandiyil, M. K., Tanneru, N., Pinto, S. M., Tanneru, N., Kasaragod, S., Sijwali, P. S., Prasad, T. S. K. (2022). Dissecting Plasmodium yoelii pathobiology: proteomics approaches for decoding novel translational and post-translational modifications. ACS Omega. (Impact factor: 4.132)</h6></li>
-              <li><h6 style="font-weight: bold;">20. Rex, D. A. B., Suchitha G. P., Palollathil, A., Kanichery, A., Prasad, T. S. K. and Dagamajalu, S. (2022). The network map of Urotensin-II mediated signaling pathway in physiological and pathological conditions. Journal of Cell Communication and Signaling. (Impact factor: 5.9)</h6></li>
-              <li><h6 style="font-weight: bold;">21. Rex, D. A. B., Subbannayya, Y., Modi, P. K., Palollathil, A., Gopalakrishnan, L., Bhandary, Y. P., Prasad, T. S. K. and Pinto, S. M. (2021). Temporal quantitative phosphoproteomics profiling of Interleukin-33 signaling network reveals unique modulators of monocyte activation. Cells. Jan 1;11(1):138. PMID: 35011700. (Impact factor 7.6)</h6></li>
-              <li><h6 style="font-weight: bold;">22. Ostaszewski, M., Niarakis, A., Mazein, A., Kuperstein, I., Phair, R., Orta, Resendiz A., …, Rex, D. A. B., …, Kitano, H., Barillot, E., Au.ray, C., Balling, R., Schneider, R. and COVID-19 Disease Map Community. (2021). COVID19 Disease Map, a computational knowledge repository of virus-host interaction mechanisms. Molecular Systems Biology. 2021 Oct;17(10): e10387.  PMID: 34664389. (Impact factor 13.068)</h6></li>
-              <li><h6 style="font-weight: bold;">23. Shaikh, S., Najar, M. A., Prabhu, A., Rex, D. A. B., Chanderasekaran, J., Behera, S., Modi, P., Prasad, T. S. K. and Bhandary, Y. (2021). The unique molecular targets associated anti-oxidant and anti-fibrotic activity of curcumin in in vitro model of acute lung injury: A proteomic approach. BioFactors. PMID: 33864298. (Impact factor 6.4)</h6></li>
-              <li><h6 style="font-weight: bold;">24. Rex, D. A. B., Dagamajalu, S., Raju, R., Kandasamy, R. K. and Prasad, T. S. K. (2021). SARS-CoV-2 signaling pathway map: A functional landscape of molecular mechanism in COVID-19. Journal of Cell Communication and Signaling. 15, 601-608. PMID: 34181169. (Impact factor 5.9)</h6></li>
-              <li><h6 style="font-weight: bold;">25. Sarma, A., Dhandapani, G., Rex, D. A. B., Thoduvayil, S., Phukan, H., Kumar, M., Pinto, S. M., Prasad, T. S. K. and Madanan, M. G. (2021). Extracellular proteome analysis shows the abundance of Histidine kinase sensor protein (LIC_11528), DNA helicase (LIC_11624), Putative lipoprotein (LIC_10713) and Peptidase C39 domain protein (LIC_10511) in Leptospira interrogans grown in EMJH medium. Pathogens. Jul 6;10(7):852. PMID:34358002. (Impact factor: 4.531)</h6></li>
-              <li><h6 style="font-weight: bold;">26. Rex, D. A. B., Kumar, S. T. A., Rai, B. A., Kotimoole, C. N., Modi, P. K. and Prasad, T. S. K. (2021). Novel Post- translational Modifications and Molecular Substrates in Glioma Identified by Bioinformatics. OMICS: A Journal of Integrative Biology. 25, 463-473. PMID: 34227895. (Impact factor: 3.978)</h6></li>
-              <li><h6 style="font-weight: bold;">27. Rex, D. A. B., K. Deepak, K., Vaid, N., Dagamajalu, S., Kandasamy, R. K., Flo, T. H. and Prasad, T. S. K. (2021). A modular map of Bradykinin-mediated inflammatory signaling network. Journal of Cell Communication and Signaling. Oct 29:1–10. PMID: 34714516. (Impact factor 5.9)</h6></li>
-              <li><h6 style="font-weight: bold;">28. Dagamajalu, S., Vijayakumar, M., Shetty, R., Rex, D. A. B., Narayana Kotimoole, C. and Prasad, T. S. K. (2020). Proteogenomic examination of esophageal squamous cell carcinoma (ESCC): new lines of inquiry. Expert Review of Proteomics. Sep;17(9):649-662.  PMID: 33151123. (Impact factor: 4.2)                    </h6></li>
-              <li><h6 style="font-weight: bold;">29. Gouda, M., Rex D. A. B., Sindu, P. E. S., Modi, P. K., Chanderasekaran, J. and Bhandary, Y. P. (2020). Proteomics analysis revealed the importance of inflammation-mediated downstream pathways and the protective role of curcumin during bleomycin-induced pulmonary fibrosis in C57BL/6 mice. Journal of Proteome Research. Aug 7;19(8):2950-2963.  PMID: 32618472. (Impact factor: 5.3)</h6></li>
-              <li><h6 style="font-weight: bold;">30. Thoduvayil, S., Dhandapani, G., Brahma, R., Rex, D. A. B., Mangalaparthi, K. K., Patel, K., Kumar, M., Tennyson, J., Satheeshkumar, P. K., Kulkarni, A., Pinto, S. M., Prasad, T. S. K. and Madanan, M. G. (2020). Triton X-114 fractionated subcellular proteome of Leptospira interrogans shows selective enrichment of pathogenic and outer membrane proteins in the detergent fraction. Proteomics. Oct;20(19-20): e2000170. PMID: 32846045. (Impact factor: 5.39)</h6></li>
-              <li><h6 style="font-weight: bold;">31. Rex, D. A. B., Agarwal, N., Prasad, T. S. K., Kandasamy, R. K., Subbannayya, Y. and Pinto, S. M. (2020). A comprehensive pathway map of IL-18-mediated signalling. Journal of Cell Communication and Signaling. Jun;14(2):257-266.  PMID: 31863285. (Impact factor: 5.9)</h6></li>
-              <li><h6 style="font-weight: bold;">32. Antil, N., Kumar, M., Behera, S. K., Arefan, M., Kotimoole, C. N., Rex, D. A. B. and Prasad, T. S. K. (2021). Unraveling Toxoplasma gondii GT strain virulence and new protein-coding genes with proteogenomic analyses. OMICS: A Journal of Integrative Biology. 25, 591-604. PMID: 34468217. (Impact factor: 3.973)</h6></li>
-              <li><h6 style="font-weight: bold;">33. Dagamajalu, S., Rex, D. A. B., Suchitha G. P., Rai, B. A., Rainey, J. K., and Prasad, T. S. K. (2021). The network map of Elabela signaling pathway in physiological and pathological conditions. Journal of cell communication and signaling. 2, 1-0. PMID: 34339006. (Impact factor: 5.9)</h6></li>
-              <li><h6 style="font-weight: bold;">34. Aravind, A., Palollathil, A., Rex, D. A. B., Kumar, K. M. K., Vijayakumar, M., Shetty, R., Codi, J. A. K., Prasad, T. S. K. and Raju, R. (2021). A multi-cellular molecular signaling and functional network map of C-C Motif Chemokine Ligand 18 (CCL18): A chemokine with immunosuppressive and pro-tumor functions. Journal of Cell Communication and Signaling. PMID: 34196939. (Impact factor: 5.9)</h6></li>
-              <li><h6 style="font-weight: bold;">35. Deolankar S. C., Patil, A. H., Rex, D. A. B., Subba, P., Mahadevan, A. and Prasad, T. S. K. (2021). Mapping Post-Translational Modifications in Brain Regions in Alzheimer’s Disease Using Proteomics Data Mining. OMICS: A Journal of Integrative Biology. 25, 525-536. PMID: 34255573. (Impact factor: 3.973)</h6></li>
-              <li><h6 style="font-weight: bold;">36. Rex, D. A. B., Kumar, S. T. A., Modi, P. K. and Prasad, T. S. K. (2021). Broadening COVID-19 Interventions to Drug Innovation: Neprilysin Pathway as a Friend, Foe or Promising Molecular Target? OMICS: A Journal of Integrative Biology. 25, 408-416. PMID: 34191617. (Impact factor: 3.973)</h6></li>
-              <li><h6 style="font-weight: bold;">37. Najar, M. A., Rex, D. A. B., Modi, P. K., Agarwal, N., Dagamajalu, S., Karthikkeyan, G., Vijayakumar, M., Chatterjee, A., Sankar, A. and Prasad, T. S. K. (2021). A complete map of the Calcium/calmodulin-dependent protein kinase kinase 2 (CAMKK2) signaling pathway. Journal of Cell Communication and Signaling.15, 283–290. PMID: 33136287. (Impact factor: 5.9)</h6></li>
-              <li><h6 style="font-weight: bold;">38. Dagamajalu, S*., Rex, D. A. B*., Gopalakrishnan, L., Karthikkeyan, G., Gurtoo. S., Modi, P. K., Mohanty, V., Rahiman, M., Soman, S., Raju, R., Tiwari, V. and Prasad, T. S. K. (2021). A network map of endothelin mediated signaling pathway. Journal of Cell Communication and Signaling. 15, 277-282. PMID: 32915369. (Impact factor: 5.9). * Shared first author</h6></li>
-              <li><h6 style="font-weight: bold;">39. Dagamajalu, S*., Rex, D. A. B*., Palollathil, A., Shetty, R., Bhat, G., Cheung, L.W.T. and Prasad, T. S. K. (2021). A pathway map of AXL receptor-mediated signaling network. Journal of Cell Communication and Signaling. 15, 143-148. PMID: 32829427. (Impact factor: 5.9). * Shared first author</h6></li>
-              <li><h6 style="font-weight: bold;">40. Dagamajalu, S*., Rex, D. A. B*., Philem, P. D., Rainey, J. K., and Prasad, T. S. K. (2021). A network map of apelin- mediated signaling. Journal of cell communication and signaling. 16, 137-143. PMID: 33797707. (Impact factor: 5.9). * Shared first author</h6></li>
-              <li><h6 style="font-weight: bold;">41. Kulkarni, S., Abdulla, R., Jose, M., Adyanthaya, S., Rex, D.A.B., Patil, A. H., Pinto, S.M. and Subbannayya, Y. (2019). Omics data-driven analysis identi.es laminin-integrin-mediated signaling pathway as a determinant for cell di.erentiation in oral squamous cell carcinoma. Indian Journal of Pathology and Microbiology. 62, 529-536. PMID: 31611435.</h6></li>
-              <li><h6 style="font-weight: bold;">42. Advani, J., Verma, R., Chatterjee, O., Rex, D. A. B., Najar, M. A., Ravishankara, N., Suresh, S., Pachori, P. K., Gupta, U. D., Pinto, S. M., Chauhan, D. S., Tripathy, S. P., Gowda, H. and Prasad, T. S. K. (2019). Rise of clinical microbial proteogenomics:  A multi-omics approach to non-tuberculous mycobacterium – the case of Mycobacterium abscessus UC22. OMICS: A Journal of Integrative Biology. 23, 1-16. PMID: 30207826. (Impact factor: 3.973)</h6></li>
-              <li><h6 style="font-weight: bold;">43. Pinto, S. M., Subbannayya, Y., Rex, D. A. B., Raju, R., Chatterjee, O., Advani, J., Radhakrishnan, A., Prasad, T. S. K., Wani, M. R. and Pandey, A. (2018). A network map of IL-33 signaling pathway. Journal of Cell Communication and Signaling. 12, 615-624. PMID: 29705949. (Impact factor: 5.9)</h6></li>
-              <li><h6 style="font-weight: bold;">44. Rex, D. A. B., Kumar, RR. (2014). The Role of Nanotechnology in Targeting Carcinogens-A Comparison on Synthesis of Gold and Zinc Nanoparticles. Journal of Biomaterials and Tissue Engineering. 4 (8), 591-599. (Impact factor: 0.144)</h6></li>
-              <li><h6 style="font-weight: bold;">45. Rex, D. A. B. (2014). Selenium enriched mushrooms as a food supplement for prevention of neurodegenerative diseases. Int J Pharm Pharm Sci, 6, 1-2.</h6></li>
-              <li><h6 style="font-weight: bold;">46. Karthikeyan, A., Siva, G., Sujitha, SP., Rex, D. A. B., Chidambaranathan, N. (2008). Antihyperglycemic activity of the ethanolic seed extract of Vernonia anthelminticum willd. International Journal of Green Pharmacy. 209-211.</h6></li>
-             </ul>
-            </div>
-        </div>
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-12 col-md-6 portfolio-item" id="manuscript" style="display: none;">
-            <ul id="pagination-listt" style="list-style: decimal;text-align: justify;">
-              <li><h6 style="font-weight: bold;">Niarakis, A., Ostaszewski, M., Mazein, A., Kuperstein, I., Kutmon, Rex, D.A.B., Orlic-Milacic., Auffray, C., Balling, R. and Schneider, R. (2022) 'A versatile and interoperable computational framework for the analysis and modeling of COVID-19 disease mechanisms'. Submitted</h6></li>
-              <li><h6 style="font-weight: bold;">Singh, N., Munjal, A., Kumari, G., Kaushik, S., Kahlon, A.K., Gupta, S., Chaurasiya, A., Anam, Z-e., Maurya, M.K., Srivastava, P., Singhal, J., Marothia, M., Joshi, P., Jain, R., Rex, D.A.B., Prasad, T.S., Mundae, M., Malhotra, P., Ranganathan, A., & Singh, S. (2023). Identification of merozoite secreted repertoire and immuno-pharmacological inhibition of a novel host-parasite interaction to block malarial infection. Submitted</h6></li>
-              <li><h6 style="font-weight: bold;">Dagamajalu, S., Najar, M. A., Rex, D. A. B., Modi, P. K., Suchitha G. P., Chandrasekaran, J., and Prasad, T. S. K. Identifying molecular targets conferred by Annona muricata L. (A. muricata) leaf extract in oral adenosquamous carcinoma cells (OSCC) by using a phosphoproteomic approach. Submitted</h6></li>
-              <li><h6 style="font-weight: bold;">Keerthi, G. P., Kirthika, G., Rex, D.A.B., Saptami, K., Parasuram, P., Jaikanth, C. (2023). Computational design of Novel Casein kinase 2 small molecule inhibitors for cancer therapy. Submitted</h6></li>
-              <li><h6 style="font-weight: bold;">Jaikanth, C., Saptami, K., Shobha, D., Prasad, T.K., Rex, D.A.B. (2023). Computational design of Checkpoint Kinase-1 (CHK-1) inhibitors for cancer therapy. Submitted (Corresponding author). </h6></li>
-              <li><h6 style="font-weight: bold;">Suchitha G. P., Dagamajalu, S*. A., Raju, R., Kandasamy, R. K., Prasad, T.K., Rex, D.A.B*. (2023). A network map of IL-26 signaling pathway. Submitted. (*Shared corresponding author)</h6></li>
-              <li><h6 style="font-weight: bold;">Thatai, A.K.S*., Ammankallu, S*., Rex, D.A.B*., Soman, S.P., Nisar, M., George, A., Anto, C.K., Sanjeev, D., Kandiyil, M.K., John, L., Raj, S.S., Awasthi, K., Vinodchandra, S.S., Prasad, T.S.K., & Raju, R. (2023). VirhostlncR: A comprehensive database for molecular targets of lncRNAs in viral infections. Submitted (*Shared first author)            </h6></li>
-              <li><h6 style="font-weight: bold;">Aravind, A., Nisar, M., Nandakumar, R., Palollathil, A., Kanichery, A., Rex, D.A.B., Prasad, T.S.K., Vijayakumar, M., & Raju, R. (2023). REMEMProt: A resource of experimental-membrane-enriched mass spectrometry-derived proteome. Submitted</h6></li>
-              <li><h6 style="font-weight: bold;">Suchitha, G. P., Pervaje, R., Modi, P. K., Prabhu, A., Rex, D.A.B., Prasad, K. T. S., & Dagamajalu, S. (2023). Anticancer activity of Bhallataka taila via prevention of EMT through the modulation of AKT/mTOR pathway in lung adenocarcinoma cells. Submitted.</h6></li>
-              <li><h6 style="font-weight: bold;">Phukan, H., Sarma, A., Rex, D. A. B., Christie, S., K S, S., Hariharan, S., Prasad, T. S. K., & Madanan, M. (2023). Physiological Temperature and Osmotic Changes Drive Dynamic Proteome Alterations in Leptospiral Outer Membrane and Enhance Protein Export Systems. Submitted</h6></li> 
-              
-            </ul>
-          </div>
-        </div>
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-12 col-md-6 portfolio-item" id="book" style="display: none;">
-            <ul id="pagination-list" style="list-style: decimal;text-align: justify;">
-              <li id="bolis"><h6 style="font-weight: bold;">1.  Rex, D. A. B., T. S. Keshava Prasad. (2022). Data analysis pipelines, potential pitfalls, and troubleshooting for MS-based biomarker discovery and validation. Protein Biomarkers: Discovery and Applications in Clinical Diagnostics. Springer Nature. (Under review)</h6></li>
-
-            </ul>
-          </div>
-        </div>
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-12 col-md-6 portfolio-item" id="patent" style="display: none;">
-            <ul id="pagination-list" style="list-style: decimal;text-align: justify;">
-              <li id="palis"><h6 style="font-weight: bold;">1.  Prasad, T. S. K., Rex, D. A. B., Kumar, S. T. A., “Composition for wound healing” Indian patent, 2023. No: 202141036627</h6></li> 
-
-            </ul>
-          </div>
-        </div>
-
-      </div>
-     
-    </section><!-- End Portfolio Section -->
-
-  
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
-      <nav aria-label="mt-3 Page navigation example" id="pageNo">
-        <ul class="pagination justify-content-center">
-          <!-- <li class="page-item disabled">
-            <a class="page-link" href="#portfolio" tabindex="-1">Previous</a>
-          </li> -->
-          <li class="page-item"><a class="page-link" href="#portfolio">1</a></li>
-          <li class="page-item"><a class="page-link" href="#portfolio">2</a></li>
-          <li class="page-item"><a class="page-link" href="#portfolio">3</a></li>
-          <li class="page-item"><a class="page-link" href="#portfolio">4</a></li>
-          <li class="page-item"><a class="page-link" href="#portfolio">5</a></li>
-          <!-- <li class="page-item">
-            <a class="page-link" href="#portfolio">Next</a>
-          </li> -->
-        </ul>
-      </nav>
-     
-    </section>
-    <!-- End Testimonials Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <!-- <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-        </div>
-
-        <div class="row mt-1">
-
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>info@example.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-
-          </div>
-
-        </div>
-
-      </div>
-    </section> -->
-    <!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
     <div class="container">
-      <h3>Dr. Rex Devasahayam Arokia Balaya</h3>
-      <p>A dedicated and accomplished professional, driven by a passion for scientific exploration and the pursuit of knowledge in the field of biochemistry</p>
-      <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
-      <!-- <div class="copyright">
-        &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
- 
-        Designed by <a href="">BootstrapMade</a>
-      </div> -->
+        <button onclick="update('var1')">Variable 1</button>
+        <button onclick="update('var2')">Variable 2</button>
+        <div id="my_dataviz"></div>
     </div>
-  </footer><!-- End Footer -->
-
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-$(document).ready(function() {
-  $('.page-link').click(function() {
-    $('.page-link').removeClass('selected');
+   
     
-    $(this).addClass('selected');
-  });
-});
-</script>
-  
+    <script>
+
+        const margin = {top: 300, right: 300, bottom: 70, left: 560},
+            width = 2000 - margin.left - margin.right,
+            height = 900 - margin.top - margin.bottom;
+        
+        const svg = d3.select("#my_dataviz")
+          .append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+          .append("g")
+            .attr("transform", `translate(${margin.left}, ${margin.top})`);
+        
+        const x = d3.scaleBand()
+          .range([ -10, width ])
+          .padding(1);
+        const xAxis = svg.append("g")
+          .attr("transform", `translate(0, ${height})`)
+        
+        const y = d3.scaleLinear()
+          .range([ height, 0]);
+        const yAxis = svg.append("g")
+          .attr("class", "myYaxis")
+        
+        
+        function update(selectedVar) {
+        
+          d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/barplot_change_data.csv").then( function(data) {
+        
+            x.domain(data.map(function(d) { return d.group; }))
+            xAxis.transition().duration(1000).call(d3.axisBottom(x))
+        
+            y.domain([0, d3.max(data, function(d) { return +d[selectedVar] }) ]);
+            yAxis.transition().duration(1000).call(d3.axisLeft(y));
+        
+            const j = svg.selectAll(".myLine")
+              .data(data)
+            j
+              .join("line")
+              .attr("class", "myLine")
+              .transition()
+              .duration(1000)
+                .attr("x1", function(d) { return x(d.group); })
+                .attr("x2", function(d) { return x(d.group); })
+                .attr("y1", y(0))
+                .attr("y2", function(d) { return y(d[selectedVar]); })
+                .attr("stroke", "blue")
+                .attr("stroke-width", 2)
+        
+        
+            const u = svg.selectAll("circle")
+              .data(data)
+            u
+              .join("circle")
+              .transition()
+              .duration(1000)
+                .attr("cx", function(d) { return x(d.group); })
+                .attr("cy", function(d) { return y(d[selectedVar]); })
+                .attr("r", 8)
+                .attr("fill", "#69b3a2");
+
+const tooltip = d3.select("body")
+  .append("div")
+  .attr("class", "tooltip")
+  .style("opacity", 0);
 
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-  <script src="script.js"></script>
+const circles = svg.selectAll("circle");
+circles
+  .on("mouseover", handleMouseOver)
+  .on("mouseout", handleMouseOut)
+  .on("click", handleClick);
 
+function handleMouseOver(event, d) {
+  d3.select(this)
+    .attr("fill", "red");
+
+  tooltip.transition().duration(200).style("opacity", .9);
+  tooltip.html(`Group : ${d.group}, Value: ${d[selectedVar]}`)
+    .style("left", (event.pageX) + "px")
+    .style("top", (event.pageY - 28) + "px");
+}
+
+function handleMouseOut(event, d) {
+  d3.select(this)
+    .attr("fill", "#69b3a2");
+
+  tooltip.transition().duration(500).style("opacity", 0);
+}
+
+function handleClick(event, d) {
+  console.log("Circle clicked:", d);
+}
+
+
+})
+        
+
+}
+        
+        update('var1')
+        </script>
 </body>
-
 </html>
+
